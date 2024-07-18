@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Image Search</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header>
+            <a href="index.html">Google Search</a>
+        </header>
+        
+        <form style="display: flex; align-items: center; justify-content: center; flex-direction: column; " class="search-form" action="https://images.google.com/search">
+            <h1>Google Advanced Search</h1>
+            <label for="q">all these words</label>
+            <input class="search-bar" type="text" name="q">
+            
+            <label for="as_epq">this exact word or phrase</label>
+            <input class="search-bar" type="text" name="as_epq">
+
+            <label for="as_oq">Any of these words</label>
+            <input class="search-bar" type="text" name="as_oq">
+
+            <label for="as_eq">None of these word</label>
+            <input class="search-bar" type="text" name="as_eq">
+            
+            <input type="submit" value="Google Search">
+        </form>
+    </body>
+</html>
