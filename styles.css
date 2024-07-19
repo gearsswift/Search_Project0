@@ -59,3 +59,24 @@ header a
 {
     text-decoration: none;
 }
+
+@media (max-width: 507px){
+    .search-bar
+    {
+        font-size: 30px;
+        width: 300px;
+        height: 40px;
+    }
+    .search-form
+    {
+        gap: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    input[type="submit"]
+    {
+        height: 40px;
+    }
+}
